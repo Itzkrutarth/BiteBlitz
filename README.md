@@ -1,16 +1,17 @@
-# biteblitz
+BiteBlitz – API-Powered Grocery App 🛒📱
 
-A new Flutter project.
+🚀 BiteBlitz is a feature-rich grocery ordering app built using Flutter, designed to provide a seamless shopping experience with real-time updates via REST API integration. The app follows the MVC architecture to ensure modularity, maintainability, and scalability.
+📌 Features
 
-## Getting Started
+✅ User Authentication – Secure login with OTP verification
+✅ Real-Time Product Listings – Fetches dynamic data via API integration
+✅ Cart & Checkout System – Add/remove items, process orders smoothly
+✅ Seamless Navigation – Optimized UI with smooth screen transitions
+✅ Performance Optimization – Debugged and tested for enhanced stability
+✅ Cross-Platform Compatibility – Runs smoothly on both Android & iOS
+🛠️ Tech Stack
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Frontend: Flutter, Dart
+    Backend: REST APIs
+    State Management: GetX
+    Development Tools: Android Studio, Git, Firebase.
