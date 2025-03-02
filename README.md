@@ -1,4 +1,4 @@
-BiteBlitz – API-Powered Grocery App 🛒📱
+##BiteBlitz – API-Powered Grocery App 🛒📱
 
 🚀 BiteBlitz is a feature-rich grocery ordering app built using Flutter, designed to provide a seamless shopping experience with real-time updates via REST API integration. The app follows the MVC architecture to ensure modularity, maintainability, and scalability.
 📌 Features
