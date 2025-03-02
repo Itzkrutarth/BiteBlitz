@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650814466736",
+    "project_id": "biteblitz-3b668",
+    "storage_bucket": "biteblitz-3b668.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650814466736:android:b0757d58273cab97fe2975",
+        "android_client_info": {
+          "package_name": "com.example.biteblitz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqc8fwEjJ0FlTu4cQktdRxm02tjSariwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

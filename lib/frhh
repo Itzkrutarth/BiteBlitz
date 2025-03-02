@@ -1,0 +1,109 @@
+  width: 40, // Adjust the size of the circle as needed
+      height: 40, // Adjust the size of the circle as needed
+      decoration: BoxDecoration(
+
+        color: _currentIndex == index ? Colors.transparent : Colors.transparent,
+      ),
+
+
+
+
+   Padding(
+                      padding: const EdgeInsets.only(left: 15,right: 15,bottom: 5,top: 20),
+                      child: Container(
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            border: Border.all(color: Colors.white,width: 1,),
+                            borderRadius: BorderRadius.all(Radius.circular(12)),
+                            boxShadow:[new BoxShadow(color: Colors.grey,blurRadius:2,offset: Offset(0,0))] ),
+
+                        //boxShadow: BoxShadow(color: Colors.grey,blurRadius: 2,offset: Offset(2,2))),
+                        padding: EdgeInsets.only(top: 10,left: 10,right: 10,bottom: 0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Name",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 16)),
+                            TextField(decoration: InputDecoration(hintText: "Enter Name",border: OutlineInputBorder(borderSide: BorderSide.none)))
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 15,right: 15,bottom: 5,top: 20),
+                      child: Container(
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            border: Border.all(color: Colors.white,width: 1,),
+                            borderRadius: BorderRadius.all(Radius.circular(12)),
+                            boxShadow:[new BoxShadow(color: Colors.grey,blurRadius:2,offset: Offset(0,0))] ),
+
+                        //boxShadow: BoxShadow(color: Colors.grey,blurRadius: 2,offset: Offset(2,2))),
+                        padding: EdgeInsets.only(top: 10,left: 10,right: 10,bottom: 0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Mobile number",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 16)),
+                            TextField(keyboardType: TextInputType.number,maxLength: 10,decoration: InputDecoration(hintText: "Enter Mobile Number",counter: Offstage(),border: OutlineInputBorder(borderSide: BorderSide.none)))
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 15,right: 15,bottom: 5,top: 20),
+                      child: Container(
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            border: Border.all(color: Colors.white,width: 1,),
+                            borderRadius: BorderRadius.all(Radius.circular(12)),
+                            boxShadow:[new BoxShadow(color: Colors.grey,blurRadius:2,offset: Offset(0,0))] ),
+
+                        //boxShadow: BoxShadow(color: Colors.grey,blurRadius: 2,offset: Offset(2,2))),
+                        padding: EdgeInsets.only(top: 10,left: 10,right: 10,bottom: 5),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Email",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 16)),
+                            TextField(keyboardType: TextInputType.emailAddress,decoration: InputDecoration(hintText: "Enter Name",border: OutlineInputBorder(borderSide: BorderSide.none)))
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 15,right: 15,bottom: 5,top: 20),
+                      child: Container(
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            border: Border.all(color: Colors.white,width: 1,),
+                            borderRadius: BorderRadius.all(Radius.circular(12)),
+                            boxShadow:[new BoxShadow(color: Colors.grey,blurRadius:2,offset: Offset(0,0))] ),
+
+                        //boxShadow: BoxShadow(color: Colors.grey,blurRadius: 2,offset: Offset(2,2))),
+                        padding: EdgeInsets.only(top: 10,left: 10,right: 10,bottom: 5),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Message",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 16)),
+                            TextField(maxLines: 5,decoration: InputDecoration(hintText: "Enter Message",border: OutlineInputBorder(borderSide: BorderSide.none)))
+                          ],
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 20.0),
+                      child: Container(
+                        height: 50,
+                        width: 350,
+                        decoration: BoxDecoration(color: primaryColor,borderRadius: BorderRadius.circular(12)),
+                        child: TextButton(onPressed: (){},
+                            child: Text('CONTACT US',style: TextStyle(color: Colors.white,fontSize: 15),)
+                        ),
+                      ),
+                    ),
+
+
+                      child: Column(
+                                            children: [
+                                              Text("Easy Homemade Flatbread Crackers"),
+                                              Text("July 18,2022")
+                                            ],
+                                          ),
